@@ -1,0 +1,625 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Deader menu */
+.second{
+    margin-top: 25px;
+}
+
+.category button{
+    font-size: 16px;
+    border:none;
+    background-color: #3577f0;
+    outline: none;
+    padding: 17px 65px;
+}
+nav{
+    margin-left: 30px;
+}
+nav ul {
+    padding-right: 1px;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+
+    text-align: left;
+    padding: 10px 3px;
+
+
+}
+
+nav ul li a {
+    display: block;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav ul li a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+
+.home-txt1 .home {
+    position: relative;
+}
+
+.home-txt1 .home:after {
+    content: '';
+    position: absolute;
+    width: 75%;
+    display: block;
+    height: 1.5px;
+    background-color: black;
+    bottom: -2px;
+}
+
+
+
+.sub-menu .home-txt {
+    position: relative;
+
+}
+
+.sub-menu .home-txt:after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 1.5px;
+    width: 0;
+    left: 0;
+    bottom: -4px;
+    transition: 0.3s;
+}
+
+.sub-menu .home-txt:hover:after {
+    width: 100%;
+}
+
+
+
+nav ul li ul.dropdown-main {
+    min-width: 240%;
+    height: auto;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(37, 47, 63, 0.1);
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    top: 109%;
+    position: absolute;
+    z-index: 999;
+    left: 30%;
+    transition: all 0.4s ease 0s;
+
+}
+
+nav .sub-menu:hover .dropdown-main {
+    opacity: 1;
+    visibility: visible;
+}
+
+nav ul li:hover ul.dropdown-main {
+    display: block;
+}
+
+nav ul li ul.dropdown-main li {
+    display: block;
+
+}
+
+.dropdown-main li a {
+    line-height: 1px;
+    font-size: 14px;
+    margin-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dropdown-main li a:hover {
+    color: #ff497c;
+    transition: all .3s ease-in-out;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: left;
+    align-items: center;
+}
+
+.sub-menu {
+    right: 21.5%;
+
+}
+
+.sub-menu a i {
+    color: #bcbcbc;
+    font-size: 14px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;  
+    margin: 18px;
+}
+.icon i {
+    margin-right: 20px;
+}
+
+.icon .heart i{
+    font-size: 20px;
+}
+.icon .cart i{
+    font-size: 20px;
+}
+.icon .profile i{
+    font-size: 14px;
+}
+
+.icon .count{
+    text-align: center;
+    background-color: #3577F0;
+    border: 2px solid white;
+    font-size: 10px;
+    font-weight: 500;
+    color: white;
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    top: 93px;
+    right: 21.5%;
+    line-height: 19px;
+    position: absolute;
+    
+}
+/*  Header menu bitdi */
+
+
+/*  Header form Element */
+.form{
+
+    position: relative;
+}
+
+.form .fa-search{
+
+    position: absolute;
+    top:13px;
+    left: 15px;
+    color: #9ca3af;
+    transition: 0.2s;
+
+
+}
+
+
+.form .fa-search:hover{
+    color: black;
+}
+
+.form span{
+
+        position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db;
+
+}
+
+.left-pan{
+    padding-left: 7px;
+}
+
+.left-pan i{
+   
+   padding-left: 10px;
+}
+
+.form-input{
+
+    height: 40px;
+    text-indent: 33px;
+    border-radius: 5px;
+}
+
+.form-input:focus{
+
+    box-shadow: none;
+    border:none;
+}
+/* Form elemet bitdi */
+
+/*  Header de iconlar */
+.icon {
+    display: flex;
+    align-items: center;  
+    margin: 18px;
+}
+.icon i {
+    margin-right: 20px;
+}
+
+.icon .heart i{
+    font-size: 20px;
+}
+.icon .cart i{
+    font-size: 20px;
+}
+.icon .profile i{
+    font-size: 14px;
+}
+
+.icon .count{
+    text-align: center;
+    background-color: #3577F0;
+    border: 2px solid white;
+    font-size: 10px;
+    font-weight: 500;
+    color: white;
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    top: 5px;
+    right: 14.5%;
+    line-height: 19px;
+    position: absolute;
+    
+}
+
+/* Iconlar bitdi */
+
+
+/*  Second slid basladi */
+
+.secondslid .info{
+    background-image: url(https://new.axilthemes.com/demo/template/etrade/assets/images/others/campaign-bg3.png);
+    position: relative;
+    padding: 30px;
+}
+.secondslid .info p{
+    position: absolute;
+    top: 19px;
+    right: 42%;
+    font-size: 16px;
+    font-weight: 700;
+    color:white
+    
+
+}
+.secondslid .info span{
+    text-decoration: underline;
+}
+/* Second slid  bitdi*/
+
+
+/* Home contact bolmesi basladi */
+.infodiv{
+    padding: 50px 0px;
+    background-color: #F8F8F8;
+
+}
+.infodiv a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight:500;
+}
+.infodiv .home{
+    font-size: 16px;
+    color: #999;
+    font-weight:500;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.infodiv .home:hover{
+    
+    color: #3577f0;
+}
+.infodiv h1{
+    padding-top: 15px;
+    font-size: 42px;
+}
+.infodiv .imgdiv{
+    position: relative;
+}
+.infodiv .imgdiv img{
+    position: absolute;
+    right: 10px;
+}
+.infodiv .imgdiv img::after{
+    content: " ";
+    height: 110px;
+    width: 110px;
+    background-color: var(--color-white);
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    right: 60px;
+    z-index: -1;  
+        
+
+}
+.col-lg-4 h4{
+    margin-bottom: 15px;
+}
+.col-lg-4 .spanall{
+    display: block;
+    color: #999;
+}
+.col-lg-4 .sp2{
+    margin-bottom: 10px;
+}
+
+/* Home contact bolmesei Bitdi */
+
+
+/* Input hissesi basldi */
+
+.contactform{
+    margin-top: 45px;
+    
+
+}
+.mainform h3{
+    margin-bottom: 20px;
+}
+.mainform p{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.workingcontact-page .doc {
+    font-weight: 500;
+    color: black;
+    
+}
+.workingcontact-page .mainform p {
+    width: 80%;
+    margin-bottom: 45px;
+    font-size: 16px;
+    font-weight: 400;
+    color:#777;
+    margin: 0 0 30px;
+}
+
+.newfor {
+    margin-bottom: 30px;
+    position: relative;
+}
+.newfor label {
+    position: absolute;
+    top: -11px;
+    left: 15px;
+    pointer-events: none;
+    z-index: 4;
+    background: #fff;
+    padding: 0 0px;
+}
+.newfor label {
+    margin-bottom: 6px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    color:#777;
+}
+label{
+ display: inline-block;
+}
+ .newfor label span{
+    color: #E76458;;
+}
+.newfor input {
+    height: 60px;
+    border: 0 none;
+    border-radius: 6px;
+    height: 50px;
+    font-size: 14px;
+    padding: 0 20px;
+    background-color: #fff;
+    border: 1px solid #cbd3d9;
+    font-weight: 400;
+    
+        
+}
+.a1{
+    width: 100%;
+}
+.newfor {
+    margin-bottom: 30px;
+    position: relative;
+}
+.newfor textarea {
+    min-height: 160px;
+    border: 0 none;
+    border-radius: 6px;
+    resize: none;
+    padding: 15px;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #cbd3d9;
+    line-height: 1.5;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.newfor .full-btn {
+    width: auto;
+}
+.full-btn {
+    
+    background-color: #3577f0;
+    color: white;
+    font-weight: 700;
+    padding: 16px 38px;
+    border: none;
+    border-radius: 6px;
+
+}
+.a2 .newfor textarea{
+    width: 96%;
+}
+/* Input hissesi bitdi */
+
+
+/* Map Basladi */
+.map{
+    margin-top: 65px;
+    
+}
+.map .map2 iframe{
+    width: 95%;
+    
+}
+/* Map bitdi */
+
+
+/* Qutular Basladi */
+
+.usub{
+    margin-top: 75px;
+    margin-bottom: 30px;
+}
+.usub .container .row .all3 .box{
+    display: flex;
+}
+.usub .container .row .all3 .imgdiv{
+    padding-right: 25px;
+}
+.usub .container .row .all3 .box .infousub h6{
+    font-size: 16px;
+    font-weight: 700;
+    color: #292930;
+}
+.usub .container .row .all3 .box .infousub p{
+    color: #777;
+}
+
+hr{
+    color: #999595;
+    
+}
+/* Qutular bitdi  */
+
+/*  Main footer basladi */
+.footer .container .row .aff h5{
+    padding-bottom:25px;
+}
+.footer .container .row .aff .info{
+    width: 100%;
+}
+.footer .container .row .aff .info .info2{
+    width: 60%;
+}
+.footer .container .row .aff .info p{
+    display: block;
+    color: #777;
+    
+}
+.footer .container .row .aff .info .subdiv1{
+    margin-bottom: 9px;
+}
+
+.footer .container .row .aff .info a{
+    
+    padding-right: 5px;
+    text-decoration: none;
+    color: #777;
+}
+.footer .container .row .col-lg-3 .infoacc h5{
+    padding-bottom:25px;
+}
+.footer .container .row .col-lg-3 .acca a{
+   text-decoration: none;
+   color: #777;
+   margin-bottom: 15px;
+   font-size:16px;
+   font-weight: 500;
+}
+.footer .container .row .col-lg-3 .codeinfo .imgdiv{
+    position: relative;
+    margin-top: 8px;
+}
+.footer .container .row .col-lg-3 .codeinfo .imgdiv .img1{
+    position: absolute;
+    right: 13px;
+    
+}
+.footer .container .row .col-lg-3 .codeinfo .imgdiv .img2{
+    margin-top: 55px;
+    position: absolute;
+    right: 13px;
+}
+
+.acca div{
+    margin-bottom: 10px;
+}
+
+.footer .container .row .col-lg-3 .acca .classa {
+    position: relative;
+
+}
+
+.footer .container .row .col-lg-3 .acca .classa:after {
+    content: '';
+    position: absolute;
+    background-color: black;
+    height: 1.5px;
+    width: 0;
+    left: 0;
+    top: 24px;
+    transition: 0.3s;
+}
+
+.acca .classa:hover:after {
+    width: 100% !important;
+}
+
+/* Main footer bitdi */
+
+
+/* Son footer */
+.lastfooter .container .row .col-lg-4 a{
+    text-decoration: none;
+    padding-right: 12px;
+    color: #777;
+
+}
+.lastfooter .container .row .col-lg-4 span{
+    color: #777;
+}
+
+
+.lastfooter .container .row  .img44 {
+    position:relative;
+    align-items: center;
+    padding: 30px 0px;
+
+}
+ 
+.lastfooter .container .row  .img44 .accept {
+    position: absolute;
+    top: 16px;
+    right: 180px;
+    
+}
+.lastfooter .container .row  .img44 .divpay {
+    position: absolute;
+    top:16px;
+    right:8px;
+    
+}
+
+
+/* Son footer bitdi */
+
+

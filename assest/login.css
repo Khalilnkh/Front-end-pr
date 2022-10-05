@@ -1,0 +1,150 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main1{
+    overflow: hidden;
+}
+.main1 .mn1{
+    background-image: url(https://new.axilthemes.com/demo/template/etrade/assets/images/bg/bg-image-9.jpg);
+    
+    padding: 50vh 0px;
+    position: relative;
+}
+.main1 .mn1 img{
+    position: absolute;
+    top: 53px;
+    left: 109px;
+}
+.main1 .mn1 h3{
+    position: absolute;
+    top: 43%;
+    left: 109px;
+}
+
+.main1 .row .col-lg-12 .firstform .signin-form{
+    width: 100%;
+    height: calc(100vh - 180px);
+    overflow-y: auto;
+    display: flex;
+    margin: 180px -30px -30px;
+}
+.main1 .row .col-lg-12 .firstform .signin-form .signin2{
+    max-width: 450px;
+    width: 100%;
+    padding: 30px;
+}
+.main1 .row .col-lg-12 .firstform .signin-form .signin2 .title{
+    margin-bottom: 16px;
+}
+.main1 .row .col-lg-12 .firstform .signin-form .signin2 p{
+    color: #999Fea;;
+}
+.main1 .row .col-lg-12 .firstform .signin-form .login{
+    padding-bottom: 30px;
+}
+.main1 .row .col-lg-12 .firstform .signin-form .login .login1{
+    position: relative;
+    margin-bottom: 35px;
+}
+.main1 .row .col-lg-12 .firstform .signin-form .login .login1 label{
+    position: absolute;
+    top: -6px;
+    left: 20px;
+    pointer-events: none;
+    z-index: 4;
+    background: #fff;
+    padding: 0 10px;
+    margin-bottom: 6px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #777;
+    display: inline-block;
+}
+.main1 .row .col-lg-12 .firstform .signin-form .login .login1 .form-control{
+    height: 60px;
+    border-color:#cbd3d9;
+    padding: 0px 30px;
+    color: #777;
+    width: 153%;
+    
+    
+}
+.main1 .row .col-lg-12 .firstform .signin-form .login .login1 input{
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: white;
+    border: 1px soild #cbd3d9;
+}
+.main1 .row .col-lg-12 .firstform .adiv button{
+    background-color:#3577f0 ;
+    color: white;
+    padding: 16px 35px;
+    border-color: #3577f0;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 95px;
+}
+.main1 .row .col-lg-12 .firstform .adiv a{
+    text-decoration: none;
+}
+.main1 .row .col-lg-12 .firstform .signup button{
+    
+    background-color: #ff497c;
+    color: white;
+    font-weight: 700;
+    padding: 16px 28px;
+    border-color: #ff497c;
+    border-radius: 5px;
+    border: none;
+}
+.main1 .row .col-lg-12 .firstform .signup span{
+    display: inline-block;
+    padding: 14px 0px;
+    margin-right: 19px;
+    color:#292930;
+    font-size: 14px;
+    font-weight: bold;
+}
+.main1 .row .col-lg-12 .firstform{
+    position: relative;
+    
+}
+.main1 .row .col-lg-12 .firstform .signup{
+    position: absolute;
+    top:36px;
+    left: 60%;
+}
+.main1 .row .col-lg-12 .firstform .signin-form .signin2{
+    position: absolute;
+    top: 36%;
+    left:33%;
+}
+.main1 .row .col-lg-12 .firstform {
+    position: relative;
+}
+.main1 .row .col-lg-12 .firstform .login {
+    position: absolute;
+    top: 57%;
+    left: 36%;
+}
+.main1 .row .col-lg-12 .firstform .adiv{
+    position: absolute;
+    top: 85%;
+    left:36%;
+}
+
+
+
+
+
+
+    
+
+
+
+    
+
